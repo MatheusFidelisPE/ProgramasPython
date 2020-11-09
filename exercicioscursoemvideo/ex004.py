@@ -1,0 +1,10 @@
+analise=input('Digite algo para caracteliza-lo:')
+
+espaco=analise.isspace()
+print('A string é composta só por espaço--->', espaco)
+decimal=analise.isdecimal()
+print('A string é um decimal--->',decimal)
+maiusculas=analise.isupper()
+print('A string esta em maiuscula--->', maiusculas)
+capitalizada=analise.istitle()
+print('A string esta capitalizada--->{}'.format(capitalizada))
